@@ -2,11 +2,16 @@
 {
 	padding:				0px;
 	margin:					0px;
-	font-family: 				'Raleway', sans-serif;	
+	font-family: 			'Raleway', sans-serif;	
 }
 
 body{
-	background-color:			#F0F0F0;
+	background-color:		#F0F0F0;
+}
+
+a
+{
+	text-decoration:		none;
 }
 
 .centered{
@@ -20,7 +25,7 @@ body{
 
 .box{
 	border:					1px solid #BFBFBF;
-	background-color:			white;
+	background-color:		white;
 	padding:				25px;
 }
 
@@ -28,7 +33,7 @@ body{
 {
 	background:				-moz-linear-gradient(top, #A11536, #000000);
 	background:				-webkit-linear-gradient(top, #A11536, #000000);
-	margin-bottom:				100px;
+	margin-bottom:			100px;
 	position:				fixed;
 	top:					0;
 	width:					100%;
@@ -36,27 +41,29 @@ body{
 }
 	#nav li
 	{
-		list-style-type:		none;
+		list-style-type:	none;
 		height:				40px;
 		float:				left;
-		width:				25%;
+		width:				20%;
+
 	}
 	#nav li a
 	{
-		line-height:			39px;
+		line-height:		39px;
 		color:				white;
 		text-align:			center;
 		display:			block;
+
+		/* Color Transition */
+		-moz-transition:	all .3s ease-out;
+		-webkit-transition:	all .3s ease-out;
+		transition:			all .3s ease-out;	
 	}	
 	#nav li a:hover
 	{
 		background:			-moz-linear-gradient(top, #BA183E, #333333);
-		background:			-webkit-linear-gradient(top, #BA183E, #333333);		
-
-		/* Color Transition */
-		-moz-transition:		.4s;
-		-webkit-transition:		.4s;
-		transition:			.4s;
+		background:			-webkit-linear-gradient(top, #BA183E, #333333);
+		box-shadow:			0px 1px 1px #000000;	
 	}
 
 #content{
@@ -76,13 +83,13 @@ body{
 	-webkit-transform:			scale(1.2, 1.2);
 	-o-transform:				scale(1.2, 1.2);
 	-moz-transform:				scale(1.2, 1.2);
-	transform:				scale(1.2, 1.2);
+	transform:					scale(1.2, 1.2);
 
 	/*Transicion*/
-	-webkit-transition: 			all 0.3s ease-out;  	/* Chrome 1-25, Safari 3.2+ */
-     	-moz-transition: 			all 0.3s ease-out;  	/* Firefox 4-15 */
-       	-o-transition: 				all 0.3s ease-out;  	/* Opera 10.50–12.00 */
-        transition: 				all 0.3s ease-out;  	/* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	-webkit-transition: 		all 0.3s ease-out;  	/* Chrome 1-25, Safari 3.2+ */
+    -moz-transition: 			all 0.3s ease-out;  	/* Firefox 4-15 */
+   	-o-transition: 				all 0.3s ease-out;  	/* Opera 10.50–12.00 */
+    transition: 				all 0.3s ease-out;  	/* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
 }       
 
 #pop-up{
