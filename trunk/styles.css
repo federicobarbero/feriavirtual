@@ -47,16 +47,16 @@ body{
 		color:				white;
 		text-align:			center;
 		display:			block;
-
-		/* Color Transition */
-		-moz-transition:		.4s;
-		-webkit-transition:		.4s;
-		transition:			.4s;
 	}	
 	#nav li a:hover
 	{
 		background:			-moz-linear-gradient(top, #BA183E, #333333);
 		background:			-webkit-linear-gradient(top, #BA183E, #333333);		
+
+		/* Color Transition */
+		-moz-transition:		.4s;
+		-webkit-transition:		.4s;
+		transition:			.4s;
 	}
 
 #content{
