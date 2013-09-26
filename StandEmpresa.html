@@ -95,7 +95,19 @@
 			</div>
 
 			<div id="main-content" class="clearfix">
-                <img src="img/stand-empresa.png">
+                <img src="img/stand-empresa.png" usemap="#stand" border="0">
+
+                <map name="stand">
+    				<area shape="circle" coords="310,157,35" onclick=" return popitup('Prabyc.html')">
+    			</map>
+
+                <script language="javascript" type="text/javascript">
+        		function popitup(url) {
+            		newwindow = window.open(url, 'name', 'height=533,width=740', false);
+            		if (window.focus) { newwindow.focus() }
+            		return false;
+       			}
+    			</script>
 			</div><!--/#main-content-->
 		</div><!--/.fluid-container#main-container-->
         </div>
