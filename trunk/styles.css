@@ -103,12 +103,13 @@ a
         position: 	absolute;
         width: 		250px;
         padding: 	10px;
-        background: 	#EEEEEE;
+        background: #EEEEEE;
         color:		#000000;
         border: 	1px solid #1a1a1a;
 	font-size: 	90%;
 	z-index:	500;
 }
+
 
 
 	
